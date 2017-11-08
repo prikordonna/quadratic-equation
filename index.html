@@ -9,10 +9,12 @@
 <body>
     <h1>Quadratic Equation</h1>
     <script src="/js/index.js"></script>
-    <p>Click the button to demonstrate the quadratic equation.</p>
-    <button onclick="calculation()">Try it</button>
-    <div id="Equation"></div>
-    <div id="x1"></div>
-    <div id="x2"></div>
+    <div>
+        <input id="a_id" type="text" name="value_a">*x<sup>2</sup> + </input>
+        <input id="b_id" type="text" name="valu_b">*x + </input>
+        <input id="c_id" type="text" name="value_c"> = 0 </input>
+        <button onclick="solve()">Solve it!</button>
+        <style>#a_id, #b_id, #c_id{width:25px}</style>
+    </div>
 </body>
 </html>
